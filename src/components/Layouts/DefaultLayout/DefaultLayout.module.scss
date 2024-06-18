@@ -1,0 +1,18 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    width: var(--default-layout-width-content, 1150px);
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+    flex: 1;
+    background-color: black;
+    min-height: 1000px;
+    color: aliceblue;
+}
